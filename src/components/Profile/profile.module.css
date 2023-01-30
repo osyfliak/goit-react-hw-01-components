@@ -1,0 +1,44 @@
+.profile {
+  box-shadow: 10px 5px 5px black;
+  background-color: rgba(4, 7, 31, 0.521);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 700px;
+}
+
+.description {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.name {
+  font-weight: bold;
+
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.tag {
+  margin-bottom: 15px;
+  color: aqua;
+}
+.location {
+  color: aqua;
+}
+
+.stats {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+}
+
+.label {
+  color: aqua;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.quantity {
+  font-weight: bold;
+}

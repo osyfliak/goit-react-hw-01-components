@@ -1,0 +1,38 @@
+.statistics{
+    padding: 20px;
+    background-color: rgb(60, 60, 124);
+    border-radius: 10px;
+box-shadow: 10px 5px 5px black;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 25px;
+    color: rgb(15, 197, 40);
+}
+
+.stat_list{
+    display: flex;
+
+    list-style: none;
+    justify-content: center;
+}
+
+.item{
+    padding: 10px 30px;
+    
+    color: rgb(10, 255, 2);
+}
+
+.item:not(:first-child) {
+border-left: 1px solid white;
+}
+
+.label{
+  display: block; 
+    
+}
+
+.stat_list{
+        border: 1px solid white;
+    }
